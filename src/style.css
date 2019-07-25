@@ -1,0 +1,34 @@
+fieldset {
+  margin-bottom: 20px;
+  display: block;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+label:last-child {
+  margin-bottom: 0;
+}
+
+.choose {
+  margin-bottom: 10px;
+}
+
+label[for="comment"] {
+  margin-bottom: 10px;
+}
+
+input[type="number"] {
+  width: 65px;
+}
+
+input[type="number"]::placeholder {
+  color: black;
+}
+
+.cats_love {
+  display: inline-block;
+  margin-left: 5px;
+}
