@@ -1,6 +1,5 @@
-fieldset {
+.fieldset_reg_form {
   margin-bottom: 20px;
-  display: block;
 }
 
 label {
@@ -8,7 +7,7 @@ label {
   margin-bottom: 10px;
 }
 
-label:last-child {
+.last {
   margin-bottom: 0;
 }
 
@@ -16,15 +15,15 @@ label:last-child {
   margin-bottom: 10px;
 }
 
-label[for="comment"] {
+.comment {
   margin-bottom: 10px;
 }
 
-input[type="number"] {
+.age {
   width: 65px;
 }
 
-input[type="number"]::placeholder {
+.age::placeholder {
   color: black;
 }
 
